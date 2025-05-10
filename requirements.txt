@@ -2,44 +2,45 @@
 # Versão: 1.0.0
 
 # Interface e Visualização
-streamlit>=1.30.0
-pandas>=2.0.3
-numpy>=1.24.3
-matplotlib>=3.7.2
-seaborn>=0.12.2
-plotly>=5.18.0
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
 
 # Processamento de PDF e OCR
-pytesseract>=0.3.10
-pdf2image>=1.16.3
-Pillow>=10.0.0
-poppler-utils>=0.68.0  # Dependência do sistema (não pip) para pdf2image
+pytesseract
+pdf2image
+Pillow
+poppler-utils
+# Dependência do sistema (não pip) para pdf2image
 
 # Processamento de dados
-python-dateutil>=2.8.2
-openpyxl>=3.1.2  # Para exportação Excel
-xlrd>=2.0.1      # Para leitura Excel
-pytz>=2023.3     # Para manipulação de fuso horário
+python-dateutil
+openpyxl  # Para exportação Excel
+xlrd     # Para leitura Excel
+pytz     # Para manipulação de fuso horário
 
 # Progress bars e utilities
-tqdm>=4.65.0
-tabulate>=0.9.0  # Para exibição de tabelas no terminal
+tqdm
+tabulate  # Para exibição de tabelas no terminal
 
 # Validação de dados
-pydantic>=2.4.2  # Para validação de modelos de dados
-email-validator>=2.0.0  # Para validação de emails
+pydantic  # Para validação de modelos de dados
+email-validator # Para validação de emails
 
 # Geração de relatórios
-reportlab>=4.0.4  # Para geração de PDFs
-jinja2>=3.1.2    # Para templates
+reportlab  # Para geração de PDFs
+jinja2    # Para templates
 
 # Teste e depuração
-pytest>=7.3.1    # Para testes
-mypy>=1.3.0      # Para verificação de tipos
-pylint>=2.17.4   # Para análise de código
+pytest    # Para testes
+mypy      # Para verificação de tipos
+pylint   # Para análise de código
 
 # Serialização/Deserialização
-pyyaml>=6.0      # Para configurações em YAML
+pyyaml      # Para configurações em YAML
 
 # Observação: SQLite é parte da biblioteca padrão do Python, 
 # não é necessário instalar via pip
